@@ -16,6 +16,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "tf-essential-01" {
-  name     = "tf-essential-01"
+  name     = var.resourcegroup_name
   location = "westus2"
 }
+
