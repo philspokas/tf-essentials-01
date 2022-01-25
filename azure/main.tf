@@ -12,6 +12,7 @@ terraform {
 
 provider "azurerm" {
   features {}
+#  subscription_id = "e58fc1ee-ddc9-418f-9d25-0dd1879357ff"
 }
 
 resource "azurerm_resource_group" "tf-essential-01" {
