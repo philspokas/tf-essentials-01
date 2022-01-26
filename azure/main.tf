@@ -39,6 +39,6 @@ resource "azurerm_storage_blob" "the_blob" {
   storage_account_name   = azurerm_storage_account.tf_essential_sa.name
   storage_container_name = azurerm_storage_container.tf_essential_container.name
   type                   = "Block"
-  source                 = "C:\temp\terraform_this.jpg"
+  source                 = "C:\\temp\\terraform_this.jpg"
 }
 
