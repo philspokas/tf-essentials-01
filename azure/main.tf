@@ -35,7 +35,7 @@ resource "azurerm_storage_container" "tf_essential_container" {
 }
 
 resource "azurerm_storage_blob" "the_blob" {
-  name                   = "terraform-this"
+  name                   = "terraform-this.jpg"
   storage_account_name   = azurerm_storage_account.tf_essential_sa.name
   storage_container_name = azurerm_storage_container.tf_essential_container.name
   type                   = "Block"
