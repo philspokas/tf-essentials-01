@@ -25,6 +25,7 @@ resource "azurerm_storage_account" "tf_essential_sa" {
   location                 = azurerm_resource_group.tf_essential_01.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
+  min_tls_version          = "TLS1_2"
 }
 
 resource "azurerm_storage_container" "tf_essential_container" {
