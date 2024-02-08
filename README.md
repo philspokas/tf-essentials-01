@@ -1,5 +1,5 @@
 # tf-essentials-01
-Terrafrom essentials
+Terraform essentials
 
 Demo configurations for Azure and AWs
 
